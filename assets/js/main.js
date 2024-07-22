@@ -16,7 +16,7 @@
         });
 
         //>> Sidebar Toggle Js Start <<//
-        $(".offcanvas__close,.offcanvas__overlay").on("click", function() {
+        $(".offcanvas__close,.offcanvas__overlay,.mean-nav ul li").on("click", function() {
             $(".offcanvas__info").removeClass("info-open");
             $(".offcanvas__overlay").removeClass("overlay-open");
         });
@@ -66,7 +66,7 @@
         $nextNavItem.addClass("active");
         $nextTabPane.addClass("show active");
       }
-    }, 500000);
+    }, 10000);
   }
 };
 
